@@ -13,6 +13,7 @@
 }
 
 .sidebar {
+    margin: 0;
     grid-column: 1;
     grid-row: 1 / 5;
     font-size: 20px;
@@ -48,7 +49,58 @@ li {
     width: 3rem;
 }
 
+#settings, #home {
+    margin-top: 50px;
+}
+
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 10px 2px 5px rgb(184, 182, 182);
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+#header-one {
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.header img {
+    cursor: pointer;
+}
+
+.header #profile{
+    width: 3rem;
+}
+
+.header input {
+    width: 40rem;
+    border-radius: 50px;
+    outline: none;
+    padding: 5px 5px 5px 15px;
+}
+
+#header-one p {
+    font-weight: 700;
+}
+
+#bell {
+    margin-left: 100px;
+}
+
+#header-two {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#header-two img {
+    width: 5rem;
 }
