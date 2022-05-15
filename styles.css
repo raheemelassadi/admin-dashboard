@@ -103,4 +103,49 @@ li {
 
 #header-two img {
     width: 5rem;
+    margin-right: 10px;
+}
+
+#header-two p {
+    font-size: .9rem;
+    margin-right: 300px;
+}
+
+#header-two span {
+    font-weight: 700;
+    font-size: 1.3rem;
+    width: 100px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+button:active {
+    transform: scale(.9);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main h1 {
+    padding: 40px 0 20px 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cards {
+    grid-column: 3;
+    grid-row: 3;
 }
